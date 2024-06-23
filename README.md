@@ -40,3 +40,4 @@
 
 - Open a PR or Fork if you like to improve this project.
 - After you add features, please remove all verbose and debugging logs so that a clean EFI remains. Use release versions of both OpenCore and Kexts and remove the -v flag from boot-args in config.plist.
+- Also please use GENSMBIOS from corpnewt on github, to generate your own SMBIOS for iMac19,1. As I already have the one in the current plist working on my pc so it won't work.
