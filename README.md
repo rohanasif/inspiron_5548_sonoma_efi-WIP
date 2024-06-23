@@ -30,8 +30,13 @@
 - SSDT-PLNF
 - SSDT-XOSI
 
-## Not Working (Please open PR as this is a public repo):
+## Not Working (Please open a PR as this is a public repo):
 
 - Bluetooth
 - Audio
 - Hardware Accelaration (especially need for graphics)
+
+## PR and Forking:
+
+- Open a PR or Fork if you like to improve this project.
+- After you add features, please remove all verbose and debugging logs so that a clean EFI remains. Use release versions of both OpenCore and Kexts and remove the -v flag from boot-args in config.plist.
