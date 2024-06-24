@@ -35,6 +35,7 @@
 - Bluetooth
 - Audio
 - Hardware Accelaration (especially need for graphics)
+- Other minor issues like volume controls and brightness controls
 
 ## PR and Forking:
 
