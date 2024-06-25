@@ -229,6 +229,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>FixupAppleEfiImages</key>
+			<false/>
 			<key>AllowRelocationBlock</key>
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
@@ -958,6 +960,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>DisableIoMapperMapping</key>
+			<false/>
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
@@ -1021,6 +1025,8 @@
 		<array/>
 		<key>Boot</key>
 		<dict>
+			<key>InstanceIdentifier</key>
+			<string></string>
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
@@ -1408,8 +1414,12 @@
 		</dict>
 		<key>Output</key>
 		<dict>
+			<key>InitialMode</key>
+			<string>Auto</string>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
+			<key>ConsoleFont</key>
+			<string></string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
@@ -1443,6 +1453,8 @@
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
+			<key>PciIo</key>
+			<false/>
 			<key>AppleAudio</key>
 			<false/>
 			<key>AppleBootPolicy</key>
@@ -1507,6 +1519,8 @@
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
 			<key>ResizeUsePciRbIo</key>
+			<false/>
+			<key>ShimRetainProtocol</key>
 			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
