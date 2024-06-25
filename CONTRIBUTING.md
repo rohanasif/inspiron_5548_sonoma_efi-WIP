@@ -1,1 +1,0 @@
-Hi, I'm Rohan and I would love for you to contribute to my repo. The simplest way you can do this is by cloning the project and exploring what all the content is. After you're done with that, I would recommend that you fork my repo or create a pull request for features you want to add. Hoping to see this repo become the base for all Dell inspiron 5548 hackintosh guides.
