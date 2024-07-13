@@ -10,12 +10,13 @@
 
 ## EFI Specifications:
 
-- Opencore v0.9.1
+- Opencore v1.0.0 (0.9.1 branch for reference only)
 - Debug version and Release version both in separate branches
 
 ## Kexts:
 
 - Airportitlwm (Wifi: Sonoma 14.5 version)
+- Bluetooth Kexts (Working perfectly)
 - AppleALC (Audio: Not working)
 - ECEnabler (For Battery)
 - Lilu (required for many processes to work properly)
@@ -32,7 +33,6 @@
 
 ## Not Working (Please open a PR as this is a public repo):
 
-- Bluetooth
 - Audio
 - Hardware Accelaration (especially need for graphics)
 - Other minor issues like volume controls and brightness controls
@@ -41,4 +41,4 @@
 
 - Open a PR or Fork if you like to improve this project.
 - After you add features, please remove all verbose and debugging logs so that a clean EFI remains. Use release versions of both OpenCore and Kexts and remove the -v flag from boot-args in config.plist.
-- Also please use GENSMBIOS from corpnewt on github, to generate your own SMBIOS for iMac19,1. As I already have the one in the current plist working on my pc so it won't work.
+- Also please use GENSMBIOS from corpnewt on github, to generate your own SMBIOS for iMac19,1 or whichever SMBIOS that supports MacOS Sonoma. As I already have the one in the current plist working on my pc so it won't work.
